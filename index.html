@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curvas de Bézier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+</head>
+
+
+
+<body>
+    <nav id="menu">
+        
+        <button type="button" id="deletecurva" style="background-color:orangered; color:black; border-radius: 10px; margin-left: 7%;"
+        a href="README.md" onClick="javascript:window.open ('README.md');">Instruções de uso</a>
+        </button>
+    
+        <div style="background: blue; display: inline; border-radius: 10px; padding: 6px; margin-right: 8px; font-weight: bold">
+            Nº de avaliações:
+            <input type="text" id="avaliations" type="number" value="100" />
+        </div>
+        <div style="background:yellow; display: inline; border-radius: 10px; padding: 6px; margin-right: 8px; font-weight: bold;"> 
+            <input id="showPoints" type="checkbox" checked/>Pontos
+            <input id="showPoli" type="checkbox" checked/>Polígonos
+            <input id="mostrarCurvas" type="checkbox" checked/>Curvas
+        </div>
+        
+        <button type="button" id="deletarCurva" style="background-color: red; color:black; border-radius: 10px"
+        onclick="deletarCurva()">Deletar Curva</button>
+    <button type="button" id="addCurva" style="background-color:green; color:black; border-radius: 10px"
+        onclick="addCurva()">Adicionar Curva</button>
+
+        <div style="background: blueviolet; display: inline; border-radius: 10px; padding: 6px; font-weight: bold;">
+        Curvas
+        <select id="mySelect">
+          </select>
+        </div>
+    </nav>
+
+    <canvas id="canvas"></canvas>
+<script src="script/main.js"></script>
+<script src="script/point.js"></script>
+<script src="script/bezier.js"></script>
+<script src="script/canvas.js"></script>
+
+</body>
+</html>
