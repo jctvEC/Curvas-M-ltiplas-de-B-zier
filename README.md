@@ -11,5 +11,5 @@ Recomendamos usar o Google Chrome como navegador para uma melhor experiência de
 * Altere o campo "Nº de avaliacoes" para alterar o número de iterações do algoritmo de De Casteljau.
 
 PS.: As cores coloridas são uma homenagem a comunidade LGBTQIA+
-#TheLGBTQIA+CommunitySuvive
+#TheLGBTQIA+CommunitySurvive
 
